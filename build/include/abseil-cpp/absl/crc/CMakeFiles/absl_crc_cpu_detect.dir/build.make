@@ -73,15 +73,15 @@ include/abseil-cpp/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_dete
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o: ../include/abseil-cpp/absl/crc/internal/cpu_detect.cc
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o: include/abseil-cpp/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o -MF CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o.d -o CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/cpu_detect.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o -MF CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o.d -o CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/cpu_detect.cc
 
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/cpu_detect.cc > CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/cpu_detect.cc > CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.i
 
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/cpu_detect.cc -o CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/cpu_detect.cc -o CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.s
 
 # Object files for target absl_crc_cpu_detect
 absl_crc_cpu_detect_OBJECTS = \

@@ -73,15 +73,15 @@ include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/internal/c
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.o: ../include/abseil-cpp/absl/log/internal/check_op.cc
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.o: include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/log && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.o -MF CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.o.d -o CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/log/internal/check_op.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/log && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.o -MF CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.o.d -o CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/log/internal/check_op.cc
 
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/log && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/log/internal/check_op.cc > CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/log && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/log/internal/check_op.cc > CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.i
 
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/log && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/log/internal/check_op.cc -o CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/log && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/log/internal/check_op.cc -o CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.s
 
 # Object files for target absl_log_internal_check_op
 absl_log_internal_check_op_OBJECTS = \

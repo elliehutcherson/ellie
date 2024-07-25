@@ -182,6 +182,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/config.dir/rule:
+	cd /home/ellie/Projects/ellie/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/config.dir/rule
+.PHONY : src/CMakeFiles/config.dir/rule
+
+# Convenience name for target.
+config: src/CMakeFiles/config.dir/rule
+.PHONY : config
+
+# fast build rule for target.
+config/fast:
+	cd /home/ellie/Projects/ellie/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/config.dir/build.make src/CMakeFiles/config.dir/build
+.PHONY : config/fast
+
+# Convenience name for target.
 src/CMakeFiles/ellie.dir/rule:
 	cd /home/ellie/Projects/ellie/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ellie.dir/rule
 .PHONY : src/CMakeFiles/ellie.dir/rule
@@ -233,6 +247,7 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
+	@echo "... config"
 	@echo "... ellie"
 	@echo "... main.o"
 	@echo "... main.i"

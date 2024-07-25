@@ -73,71 +73,71 @@ include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.o: include/a
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.o: ../include/abseil-cpp/absl/time/civil_time.cc
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.o: include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.o -MF CMakeFiles/absl_time.dir/civil_time.cc.o.d -o CMakeFiles/absl_time.dir/civil_time.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/civil_time.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.o -MF CMakeFiles/absl_time.dir/civil_time.cc.o.d -o CMakeFiles/absl_time.dir/civil_time.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/civil_time.cc
 
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_time.dir/civil_time.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/civil_time.cc > CMakeFiles/absl_time.dir/civil_time.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/civil_time.cc > CMakeFiles/absl_time.dir/civil_time.cc.i
 
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_time.dir/civil_time.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/civil_time.cc -o CMakeFiles/absl_time.dir/civil_time.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/civil_time.cc -o CMakeFiles/absl_time.dir/civil_time.cc.s
 
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/clock.cc.o: include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/flags.make
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/clock.cc.o: ../include/abseil-cpp/absl/time/clock.cc
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/clock.cc.o: include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/clock.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/clock.cc.o -MF CMakeFiles/absl_time.dir/clock.cc.o.d -o CMakeFiles/absl_time.dir/clock.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/clock.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/clock.cc.o -MF CMakeFiles/absl_time.dir/clock.cc.o.d -o CMakeFiles/absl_time.dir/clock.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/clock.cc
 
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/clock.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_time.dir/clock.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/clock.cc > CMakeFiles/absl_time.dir/clock.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/clock.cc > CMakeFiles/absl_time.dir/clock.cc.i
 
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/clock.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_time.dir/clock.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/clock.cc -o CMakeFiles/absl_time.dir/clock.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/clock.cc -o CMakeFiles/absl_time.dir/clock.cc.s
 
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/duration.cc.o: include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/flags.make
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/duration.cc.o: ../include/abseil-cpp/absl/time/duration.cc
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/duration.cc.o: include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/duration.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/duration.cc.o -MF CMakeFiles/absl_time.dir/duration.cc.o.d -o CMakeFiles/absl_time.dir/duration.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/duration.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/duration.cc.o -MF CMakeFiles/absl_time.dir/duration.cc.o.d -o CMakeFiles/absl_time.dir/duration.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/duration.cc
 
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/duration.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_time.dir/duration.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/duration.cc > CMakeFiles/absl_time.dir/duration.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/duration.cc > CMakeFiles/absl_time.dir/duration.cc.i
 
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/duration.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_time.dir/duration.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/duration.cc -o CMakeFiles/absl_time.dir/duration.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/duration.cc -o CMakeFiles/absl_time.dir/duration.cc.s
 
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/format.cc.o: include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/flags.make
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/format.cc.o: ../include/abseil-cpp/absl/time/format.cc
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/format.cc.o: include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/format.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/format.cc.o -MF CMakeFiles/absl_time.dir/format.cc.o.d -o CMakeFiles/absl_time.dir/format.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/format.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/format.cc.o -MF CMakeFiles/absl_time.dir/format.cc.o.d -o CMakeFiles/absl_time.dir/format.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/format.cc
 
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/format.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_time.dir/format.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/format.cc > CMakeFiles/absl_time.dir/format.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/format.cc > CMakeFiles/absl_time.dir/format.cc.i
 
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/format.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_time.dir/format.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/format.cc -o CMakeFiles/absl_time.dir/format.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/format.cc -o CMakeFiles/absl_time.dir/format.cc.s
 
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/time.cc.o: include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/flags.make
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/time.cc.o: ../include/abseil-cpp/absl/time/time.cc
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/time.cc.o: include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/time.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/time.cc.o -MF CMakeFiles/absl_time.dir/time.cc.o.d -o CMakeFiles/absl_time.dir/time.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/time.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/time.cc.o -MF CMakeFiles/absl_time.dir/time.cc.o.d -o CMakeFiles/absl_time.dir/time.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/time.cc
 
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/time.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_time.dir/time.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/time.cc > CMakeFiles/absl_time.dir/time.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/time.cc > CMakeFiles/absl_time.dir/time.cc.i
 
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/time.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_time.dir/time.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/time.cc -o CMakeFiles/absl_time.dir/time.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/time && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/time/time.cc -o CMakeFiles/absl_time.dir/time.cc.s
 
 # Object files for target absl_time
 absl_time_OBJECTS = \

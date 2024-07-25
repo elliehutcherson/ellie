@@ -73,15 +73,15 @@ src/CMakeFiles/ellie.dir/main.cc.o: src/CMakeFiles/ellie.dir/flags.make
 src/CMakeFiles/ellie.dir/main.cc.o: ../src/main.cc
 src/CMakeFiles/ellie.dir/main.cc.o: src/CMakeFiles/ellie.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/ellie.dir/main.cc.o"
-	cd /home/ellie/Projects/ellie/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/ellie.dir/main.cc.o -MF CMakeFiles/ellie.dir/main.cc.o.d -o CMakeFiles/ellie.dir/main.cc.o -c /home/ellie/Projects/ellie/src/main.cc
+	cd /home/ellie/Projects/ellie/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/ellie.dir/main.cc.o -MF CMakeFiles/ellie.dir/main.cc.o.d -o CMakeFiles/ellie.dir/main.cc.o -c /home/ellie/Projects/ellie/src/main.cc
 
 src/CMakeFiles/ellie.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ellie.dir/main.cc.i"
-	cd /home/ellie/Projects/ellie/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/src/main.cc > CMakeFiles/ellie.dir/main.cc.i
+	cd /home/ellie/Projects/ellie/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/src/main.cc > CMakeFiles/ellie.dir/main.cc.i
 
 src/CMakeFiles/ellie.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ellie.dir/main.cc.s"
-	cd /home/ellie/Projects/ellie/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/src/main.cc -o CMakeFiles/ellie.dir/main.cc.s
+	cd /home/ellie/Projects/ellie/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/src/main.cc -o CMakeFiles/ellie.dir/main.cc.s
 
 # Object files for target ellie
 ellie_OBJECTS = \
@@ -92,6 +92,7 @@ ellie_EXTERNAL_OBJECTS =
 
 src/ellie: src/CMakeFiles/ellie.dir/main.cc.o
 src/ellie: src/CMakeFiles/ellie.dir/build.make
+src/ellie: src/libconfig.a
 src/ellie: include/abseil-cpp/absl/log/libabsl_log_internal_conditions.a
 src/ellie: include/abseil-cpp/absl/log/libabsl_log_internal_message.a
 src/ellie: include/abseil-cpp/absl/debugging/libabsl_examine_stack.a
@@ -125,14 +126,14 @@ src/ellie: include/abseil-cpp/absl/time/libabsl_time.a
 src/ellie: include/abseil-cpp/absl/time/libabsl_civil_time.a
 src/ellie: include/abseil-cpp/absl/time/libabsl_time_zone.a
 src/ellie: include/abseil-cpp/absl/log/libabsl_log_internal_fnmatch.a
+src/ellie: include/abseil-cpp/absl/types/libabsl_bad_optional_access.a
 src/ellie: include/abseil-cpp/absl/strings/libabsl_strings.a
 src/ellie: include/abseil-cpp/absl/strings/libabsl_strings_internal.a
 src/ellie: include/abseil-cpp/absl/strings/libabsl_string_view.a
-src/ellie: include/abseil-cpp/absl/base/libabsl_throw_delegate.a
 src/ellie: include/abseil-cpp/absl/base/libabsl_base.a
 src/ellie: include/abseil-cpp/absl/base/libabsl_spinlock_wait.a
 src/ellie: include/abseil-cpp/absl/numeric/libabsl_int128.a
-src/ellie: include/abseil-cpp/absl/types/libabsl_bad_optional_access.a
+src/ellie: include/abseil-cpp/absl/base/libabsl_throw_delegate.a
 src/ellie: include/abseil-cpp/absl/base/libabsl_raw_logging_internal.a
 src/ellie: include/abseil-cpp/absl/base/libabsl_log_severity.a
 src/ellie: src/CMakeFiles/ellie.dir/link.txt

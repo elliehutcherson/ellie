@@ -73,29 +73,29 @@ include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/discrete
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.o: ../include/abseil-cpp/absl/random/discrete_distribution.cc
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.o: include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.o -MF CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.o.d -o CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/discrete_distribution.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.o -MF CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.o.d -o CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/discrete_distribution.cc
 
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/discrete_distribution.cc > CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/discrete_distribution.cc > CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.i
 
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/discrete_distribution.cc -o CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/discrete_distribution.cc -o CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.s
 
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.o: include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/flags.make
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.o: ../include/abseil-cpp/absl/random/gaussian_distribution.cc
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.o: include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.o -MF CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.o.d -o CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/gaussian_distribution.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.o -MF CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.o.d -o CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/gaussian_distribution.cc
 
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/gaussian_distribution.cc > CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/gaussian_distribution.cc > CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.i
 
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/gaussian_distribution.cc -o CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/gaussian_distribution.cc -o CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.s
 
 # Object files for target absl_random_distributions
 absl_random_distributions_OBJECTS = \

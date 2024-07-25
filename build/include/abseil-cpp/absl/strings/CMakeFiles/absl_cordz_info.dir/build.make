@@ -73,15 +73,15 @@ include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_in
 include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o: ../include/abseil-cpp/absl/strings/internal/cordz_info.cc
 include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o: include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_info.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/strings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o -MF CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o.d -o CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/strings/internal/cordz_info.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/strings && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o -MF CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o.d -o CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/strings/internal/cordz_info.cc
 
 include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/strings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/strings/internal/cordz_info.cc > CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/strings && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/strings/internal/cordz_info.cc > CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.i
 
 include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/strings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/strings/internal/cordz_info.cc -o CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/strings && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/strings/internal/cordz_info.cc -o CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.s
 
 # Object files for target absl_cordz_info
 absl_cordz_info_OBJECTS = \

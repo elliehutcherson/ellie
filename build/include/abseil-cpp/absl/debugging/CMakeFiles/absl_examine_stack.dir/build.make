@@ -73,15 +73,15 @@ include/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/exa
 include/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o: ../include/abseil-cpp/absl/debugging/internal/examine_stack.cc
 include/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o: include/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/debugging && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o -MF CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o.d -o CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/debugging/internal/examine_stack.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/debugging && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o -MF CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o.d -o CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/debugging/internal/examine_stack.cc
 
 include/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/debugging && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/debugging/internal/examine_stack.cc > CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/debugging && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/debugging/internal/examine_stack.cc > CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.i
 
 include/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/debugging && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/debugging/internal/examine_stack.cc -o CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/debugging && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/debugging/internal/examine_stack.cc -o CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.s
 
 # Object files for target absl_examine_stack
 absl_examine_stack_OBJECTS = \

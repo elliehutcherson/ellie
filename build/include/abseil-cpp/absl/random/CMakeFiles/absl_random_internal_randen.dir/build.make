@@ -73,15 +73,15 @@ include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/intern
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o: ../include/abseil-cpp/absl/random/internal/randen.cc
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o: include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o -MF CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o.d -o CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/internal/randen.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o -MF CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o.d -o CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/internal/randen.cc
 
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/internal/randen.cc > CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/internal/randen.cc > CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.i
 
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/internal/randen.cc -o CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/random && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/random/internal/randen.cc -o CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.s
 
 # Object files for target absl_random_internal_randen
 absl_random_internal_randen_OBJECTS = \

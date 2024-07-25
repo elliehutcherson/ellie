@@ -73,15 +73,15 @@ include/abseil-cpp/absl/profiling/CMakeFiles/absl_exponential_biased.dir/interna
 include/abseil-cpp/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o: ../include/abseil-cpp/absl/profiling/internal/exponential_biased.cc
 include/abseil-cpp/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o: include/abseil-cpp/absl/profiling/CMakeFiles/absl_exponential_biased.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/profiling && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o -MF CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o.d -o CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/profiling/internal/exponential_biased.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/profiling && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o -MF CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o.d -o CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/profiling/internal/exponential_biased.cc
 
 include/abseil-cpp/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/profiling && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/profiling/internal/exponential_biased.cc > CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/profiling && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/profiling/internal/exponential_biased.cc > CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.i
 
 include/abseil-cpp/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/profiling && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/profiling/internal/exponential_biased.cc -o CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/profiling && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/profiling/internal/exponential_biased.cc -o CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.s
 
 # Object files for target absl_exponential_biased
 absl_exponential_biased_OBJECTS = \

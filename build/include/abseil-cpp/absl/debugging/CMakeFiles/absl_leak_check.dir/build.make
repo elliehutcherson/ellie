@@ -73,15 +73,15 @@ include/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.o
 include/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.o: ../include/abseil-cpp/absl/debugging/leak_check.cc
 include/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.o: include/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/debugging && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.o -MF CMakeFiles/absl_leak_check.dir/leak_check.cc.o.d -o CMakeFiles/absl_leak_check.dir/leak_check.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/debugging/leak_check.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/debugging && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.o -MF CMakeFiles/absl_leak_check.dir/leak_check.cc.o.d -o CMakeFiles/absl_leak_check.dir/leak_check.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/debugging/leak_check.cc
 
 include/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_leak_check.dir/leak_check.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/debugging && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/debugging/leak_check.cc > CMakeFiles/absl_leak_check.dir/leak_check.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/debugging && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/debugging/leak_check.cc > CMakeFiles/absl_leak_check.dir/leak_check.cc.i
 
 include/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_leak_check.dir/leak_check.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/debugging && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/debugging/leak_check.cc -o CMakeFiles/absl_leak_check.dir/leak_check.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/debugging && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/debugging/leak_check.cc -o CMakeFiles/absl_leak_check.dir/leak_check.cc.s
 
 # Object files for target absl_leak_check
 absl_leak_check_OBJECTS = \

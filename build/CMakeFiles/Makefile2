@@ -75,6 +75,7 @@ preinstall: testing/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/copy_assets.dir/clean
 clean: src/clean
 clean: include/clean
 clean: testing/clean
@@ -702,6 +703,7 @@ include/abseil-cpp/absl/utility/clean:
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
+src/all: src/CMakeFiles/config.dir/all
 src/all: src/CMakeFiles/ellie.dir/all
 .PHONY : src/all
 
@@ -710,6 +712,7 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
+src/clean: src/CMakeFiles/config.dir/clean
 src/clean: src/CMakeFiles/ellie.dir/clean
 .PHONY : src/clean
 
@@ -729,9 +732,104 @@ testing/clean:
 .PHONY : testing/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/copy_assets.dir
+
+# All Build rule for target.
+CMakeFiles/copy_assets.dir/all: src/CMakeFiles/ellie.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assets.dir/build.make CMakeFiles/copy_assets.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assets.dir/build.make CMakeFiles/copy_assets.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num= "Built target copy_assets"
+.PHONY : CMakeFiles/copy_assets.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/copy_assets.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 55
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/copy_assets.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
+.PHONY : CMakeFiles/copy_assets.dir/rule
+
+# Convenience name for target.
+copy_assets: CMakeFiles/copy_assets.dir/rule
+.PHONY : copy_assets
+
+# clean rule for target.
+CMakeFiles/copy_assets.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assets.dir/build.make CMakeFiles/copy_assets.dir/clean
+.PHONY : CMakeFiles/copy_assets.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/config.dir
+
+# All Build rule for target.
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/base/CMakeFiles/absl_log_severity.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/base/CMakeFiles/absl_raw_logging_internal.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/base/CMakeFiles/absl_spinlock_wait.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/base/CMakeFiles/absl_base.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/base/CMakeFiles/absl_throw_delegate.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/base/CMakeFiles/absl_strerror.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/hash/CMakeFiles/absl_hash.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/hash/CMakeFiles/absl_city.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/hash/CMakeFiles/absl_low_level_hash.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_conditions.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_format.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_globals.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_proto.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_message.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_nullguard.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/log/CMakeFiles/absl_log_globals.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/log/CMakeFiles/absl_log_entry.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/log/CMakeFiles/absl_log_sink.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/log/CMakeFiles/absl_vlog_config_internal.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/numeric/CMakeFiles/absl_int128.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/strings/CMakeFiles/absl_string_view.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/strings/CMakeFiles/absl_strings_internal.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/time/CMakeFiles/absl_civil_time.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/time/CMakeFiles/absl_time_zone.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/types/CMakeFiles/absl_bad_optional_access.dir/all
+src/CMakeFiles/config.dir/all: include/abseil-cpp/absl/types/CMakeFiles/absl_bad_variant_access.dir/all
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/config.dir/build.make src/CMakeFiles/config.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/config.dir/build.make src/CMakeFiles/config.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=99 "Built target config"
+.PHONY : src/CMakeFiles/config.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/config.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 54
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/config.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/config.dir/rule
+
+# Convenience name for target.
+config: src/CMakeFiles/config.dir/rule
+.PHONY : config
+
+# clean rule for target.
+src/CMakeFiles/config.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/config.dir/build.make src/CMakeFiles/config.dir/clean
+.PHONY : src/CMakeFiles/config.dir/clean
+
+#=============================================================================
 # Target rules for target src/CMakeFiles/ellie.dir
 
 # All Build rule for target.
+src/CMakeFiles/ellie.dir/all: src/CMakeFiles/config.dir/all
 src/CMakeFiles/ellie.dir/all: include/abseil-cpp/absl/base/CMakeFiles/absl_log_severity.dir/all
 src/CMakeFiles/ellie.dir/all: include/abseil-cpp/absl/base/CMakeFiles/absl_raw_logging_internal.dir/all
 src/CMakeFiles/ellie.dir/all: include/abseil-cpp/absl/base/CMakeFiles/absl_spinlock_wait.dir/all
@@ -782,7 +880,7 @@ src/CMakeFiles/ellie.dir/all: include/abseil-cpp/absl/types/CMakeFiles/absl_bad_
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/ellie.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 55
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ellie.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/ellie.dir/rule
@@ -1638,12 +1736,12 @@ include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/all: include/ab
 include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/all: include/abseil-cpp/absl/base/CMakeFiles/absl_base.dir/all
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/build.make include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/build.make include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num= "Built target absl_malloc_internal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=53 "Built target absl_malloc_internal"
 .PHONY : include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/all
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/rule
@@ -1746,12 +1844,12 @@ include/abseil-cpp/absl/base/CMakeFiles/absl_scoped_set_env.dir/clean:
 include/abseil-cpp/absl/base/CMakeFiles/absl_strerror.dir/all:
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/base/CMakeFiles/absl_strerror.dir/build.make include/abseil-cpp/absl/base/CMakeFiles/absl_strerror.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/base/CMakeFiles/absl_strerror.dir/build.make include/abseil-cpp/absl/base/CMakeFiles/absl_strerror.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=75 "Built target absl_strerror"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num= "Built target absl_strerror"
 .PHONY : include/abseil-cpp/absl/base/CMakeFiles/absl_strerror.dir/all
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/base/CMakeFiles/absl_strerror.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/base/CMakeFiles/absl_strerror.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/base/CMakeFiles/absl_strerror.dir/rule
@@ -1781,7 +1879,7 @@ include/abseil-cpp/absl/base/CMakeFiles/absl_poison.dir/all: include/abseil-cpp/
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/base/CMakeFiles/absl_poison.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/base/CMakeFiles/absl_poison.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/base/CMakeFiles/absl_poison.dir/rule
@@ -1859,7 +1957,7 @@ include/abseil-cpp/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/all: in
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 38
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 39
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/rule
@@ -1909,12 +2007,12 @@ include/abseil-cpp/absl/container/CMakeFiles/absl_raw_hash_set.dir/all: include/
 include/abseil-cpp/absl/container/CMakeFiles/absl_raw_hash_set.dir/all: include/abseil-cpp/absl/types/CMakeFiles/absl_bad_variant_access.dir/all
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/container/CMakeFiles/absl_raw_hash_set.dir/build.make include/abseil-cpp/absl/container/CMakeFiles/absl_raw_hash_set.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/container/CMakeFiles/absl_raw_hash_set.dir/build.make include/abseil-cpp/absl/container/CMakeFiles/absl_raw_hash_set.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num= "Built target absl_raw_hash_set"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=65 "Built target absl_raw_hash_set"
 .PHONY : include/abseil-cpp/absl/container/CMakeFiles/absl_raw_hash_set.dir/all
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/container/CMakeFiles/absl_raw_hash_set.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 44
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/container/CMakeFiles/absl_raw_hash_set.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/container/CMakeFiles/absl_raw_hash_set.dir/rule
@@ -2010,7 +2108,7 @@ include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/all: include/abseil-cpp/a
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/rule
@@ -2048,7 +2146,7 @@ include/abseil-cpp/absl/crc/CMakeFiles/absl_crc_cord_state.dir/all: include/abse
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc_cord_state.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc_cord_state.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/crc/CMakeFiles/absl_crc_cord_state.dir/rule
@@ -2071,12 +2169,12 @@ include/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/all: include/ab
 include/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/all: include/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/all
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/build.make include/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/build.make include/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=69 "Built target absl_stacktrace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num= "Built target absl_stacktrace"
 .PHONY : include/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/all
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/rule
@@ -2116,7 +2214,7 @@ include/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/all: include/abs
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/rule
@@ -2158,7 +2256,7 @@ include/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/all: include
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/rule
@@ -2201,7 +2299,7 @@ include/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/all
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/rule
@@ -2409,7 +2507,7 @@ include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_program_name.dir/all: includ
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_program_name.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_program_name.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_program_name.dir/rule
@@ -2458,7 +2556,7 @@ include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/all: include/abse
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 38
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 39
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/rule
@@ -2494,7 +2592,7 @@ include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_marshalling.dir/all: include
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_marshalling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_marshalling.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_marshalling.dir/rule
@@ -2556,7 +2654,7 @@ include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_commandlineflag.dir/all: inc
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_commandlineflag.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_commandlineflag.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_commandlineflag.dir/rule
@@ -2593,7 +2691,7 @@ include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_private_handle_accessor.dir/
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_private_handle_accessor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_private_handle_accessor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_private_handle_accessor.dir/rule
@@ -2664,7 +2762,7 @@ include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_reflection.dir/all: include/
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_reflection.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 63
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_reflection.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_reflection.dir/rule
@@ -2719,7 +2817,7 @@ include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_internal.dir/all: include/ab
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 45
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 46
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_internal.dir/rule
@@ -2793,7 +2891,7 @@ include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_usage_internal.dir/all: incl
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_usage_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 65
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_usage_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_usage_internal.dir/rule
@@ -2868,7 +2966,7 @@ include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_usage.dir/all: include/absei
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_usage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 66
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_usage.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_usage.dir/rule
@@ -2944,7 +3042,7 @@ include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_parse.dir/all: include/absei
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_parse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 66
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_parse.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/flags/CMakeFiles/absl_flags_parse.dir/rule
@@ -3036,12 +3134,12 @@ include/abseil-cpp/absl/hash/CMakeFiles/absl_low_level_hash.dir/all: include/abs
 include/abseil-cpp/absl/hash/CMakeFiles/absl_low_level_hash.dir/all: include/abseil-cpp/absl/numeric/CMakeFiles/absl_int128.dir/all
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/hash/CMakeFiles/absl_low_level_hash.dir/build.make include/abseil-cpp/absl/hash/CMakeFiles/absl_low_level_hash.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/hash/CMakeFiles/absl_low_level_hash.dir/build.make include/abseil-cpp/absl/hash/CMakeFiles/absl_low_level_hash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=53 "Built target absl_low_level_hash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num= "Built target absl_low_level_hash"
 .PHONY : include/abseil-cpp/absl/hash/CMakeFiles/absl_low_level_hash.dir/all
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/hash/CMakeFiles/absl_low_level_hash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/hash/CMakeFiles/absl_low_level_hash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/hash/CMakeFiles/absl_low_level_hash.dir/rule
@@ -3108,7 +3206,7 @@ include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/all: inclu
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 54
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/rule
@@ -3176,7 +3274,7 @@ include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_format.dir/all: include
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_format.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_format.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_format.dir/rule
@@ -3213,7 +3311,7 @@ include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_globals.dir/all: includ
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_globals.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_globals.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_globals.dir/rule
@@ -3247,7 +3345,7 @@ include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_proto.dir/all: include/
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_proto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_proto.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_proto.dir/rule
@@ -3313,7 +3411,7 @@ include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_message.dir/all: includ
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_message.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 55
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 53
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_message.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_message.dir/rule
@@ -3372,7 +3470,7 @@ include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/all: i
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 46
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/rule
@@ -3466,7 +3564,7 @@ include/abseil-cpp/absl/log/CMakeFiles/absl_die_if_null.dir/all: include/abseil-
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/log/CMakeFiles/absl_die_if_null.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 54
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/log/CMakeFiles/absl_die_if_null.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/log/CMakeFiles/absl_die_if_null.dir/rule
@@ -3598,7 +3696,7 @@ include/abseil-cpp/absl/log/CMakeFiles/absl_log_globals.dir/all: include/abseil-
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_globals.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/log/CMakeFiles/absl_log_globals.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/log/CMakeFiles/absl_log_globals.dir/rule
@@ -3655,7 +3753,7 @@ include/abseil-cpp/absl/log/CMakeFiles/absl_log_initialize.dir/all: include/abse
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_initialize.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 46
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 45
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/log/CMakeFiles/absl_log_initialize.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/log/CMakeFiles/absl_log_initialize.dir/rule
@@ -3692,7 +3790,7 @@ include/abseil-cpp/absl/log/CMakeFiles/absl_log_entry.dir/all: include/abseil-cp
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_entry.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/log/CMakeFiles/absl_log_entry.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/log/CMakeFiles/absl_log_entry.dir/rule
@@ -3730,7 +3828,7 @@ include/abseil-cpp/absl/log/CMakeFiles/absl_log_sink.dir/all: include/abseil-cpp
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_sink.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/log/CMakeFiles/absl_log_sink.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/log/CMakeFiles/absl_log_sink.dir/rule
@@ -3775,7 +3873,7 @@ include/abseil-cpp/absl/log/CMakeFiles/absl_vlog_config_internal.dir/all: includ
 include/abseil-cpp/absl/log/CMakeFiles/absl_vlog_config_internal.dir/all: include/abseil-cpp/absl/types/CMakeFiles/absl_bad_optional_access.dir/all
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/log/CMakeFiles/absl_vlog_config_internal.dir/build.make include/abseil-cpp/absl/log/CMakeFiles/absl_vlog_config_internal.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/log/CMakeFiles/absl_vlog_config_internal.dir/build.make include/abseil-cpp/absl/log/CMakeFiles/absl_vlog_config_internal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=99 "Built target absl_vlog_config_internal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num= "Built target absl_vlog_config_internal"
 .PHONY : include/abseil-cpp/absl/log/CMakeFiles/absl_vlog_config_internal.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3814,7 +3912,7 @@ include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/all: includ
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/rule
@@ -3926,7 +4024,7 @@ include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/all: inc
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/rule
@@ -3990,7 +4088,7 @@ include/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/all: in
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/all: include/abseil-cpp/absl/types/CMakeFiles/absl_bad_optional_access.dir/all
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/build.make include/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/build.make include/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=65 "Built target absl_random_seed_sequences"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num= "Built target absl_random_seed_sequences"
 .PHONY : include/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4030,7 +4128,7 @@ include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/rule
@@ -4072,7 +4170,7 @@ include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/all
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/rule
@@ -4175,7 +4273,7 @@ include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/all: include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/all
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/build.make include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/build.make include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=61 "Built target absl_random_internal_randen_hwaes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num= "Built target absl_random_internal_randen_hwaes"
 .PHONY : include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4201,12 +4299,12 @@ include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/all: include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/all
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/build.make include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/build.make include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num= "Built target absl_random_internal_randen_hwaes_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=61 "Built target absl_random_internal_randen_hwaes_impl"
 .PHONY : include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/all
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/rule
@@ -4241,7 +4339,7 @@ include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/rule
@@ -4297,12 +4395,12 @@ include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/all: include/abseil-cp
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/all: include/abseil-cpp/absl/types/CMakeFiles/absl_bad_optional_access.dir/all
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/build.make include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/build.make include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=70 "Built target absl_status"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=69,70 "Built target absl_status"
 .PHONY : include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/all
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 55
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/rule
@@ -4365,7 +4463,7 @@ include/abseil-cpp/absl/status/CMakeFiles/absl_statusor.dir/all: include/abseil-
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/status/CMakeFiles/absl_statusor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 57
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/status/CMakeFiles/absl_statusor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/status/CMakeFiles/absl_statusor.dir/rule
@@ -4390,12 +4488,12 @@ include/abseil-cpp/absl/strings/CMakeFiles/absl_string_view.dir/all: include/abs
 include/abseil-cpp/absl/strings/CMakeFiles/absl_string_view.dir/all: include/abseil-cpp/absl/base/CMakeFiles/absl_throw_delegate.dir/all
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/strings/CMakeFiles/absl_string_view.dir/build.make include/abseil-cpp/absl/strings/CMakeFiles/absl_string_view.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/abseil-cpp/absl/strings/CMakeFiles/absl_string_view.dir/build.make include/abseil-cpp/absl/strings/CMakeFiles/absl_string_view.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num= "Built target absl_string_view"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=75 "Built target absl_string_view"
 .PHONY : include/abseil-cpp/absl/strings/CMakeFiles/absl_string_view.dir/all
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/strings/CMakeFiles/absl_string_view.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/strings/CMakeFiles/absl_string_view.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/strings/CMakeFiles/absl_string_view.dir/rule
@@ -4428,7 +4526,7 @@ include/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/all: include/abseil-
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/rule
@@ -4491,7 +4589,7 @@ include/abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/all: inc
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/rule
@@ -4531,7 +4629,7 @@ include/abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/all: include/a
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/rule
@@ -4607,7 +4705,7 @@ include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_handle.dir/all: include/ab
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_handle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_handle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_handle.dir/rule
@@ -4664,7 +4762,7 @@ include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_info.dir/all: include/abse
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_info.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 49
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_info.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_info.dir/rule
@@ -4722,7 +4820,7 @@ include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/all: incl
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 51
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/rule
@@ -4781,7 +4879,7 @@ include/abseil-cpp/absl/strings/CMakeFiles/absl_cord.dir/all: include/abseil-cpp
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/strings/CMakeFiles/absl_cord.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 53
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/strings/CMakeFiles/absl_cord.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/strings/CMakeFiles/absl_cord.dir/rule
@@ -4811,7 +4909,7 @@ include/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/rule
@@ -4848,7 +4946,7 @@ include/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/rule
@@ -4895,7 +4993,7 @@ include/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/all:
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 37
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/rule
@@ -4931,7 +5029,7 @@ include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/all: include/abseil-cpp/ab
 
 # Build rule for subdir invocation for target.
 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ellie/Projects/ellie/build/CMakeFiles 0
 .PHONY : include/abseil-cpp/absl/time/CMakeFiles/absl_time.dir/rule

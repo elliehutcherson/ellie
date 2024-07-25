@@ -73,43 +73,43 @@ include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/internal/status_intern
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/internal/status_internal.cc.o: ../include/abseil-cpp/absl/status/internal/status_internal.cc
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/internal/status_internal.cc.o: include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/internal/status_internal.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/internal/status_internal.cc.o -MF CMakeFiles/absl_status.dir/internal/status_internal.cc.o.d -o CMakeFiles/absl_status.dir/internal/status_internal.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/internal/status_internal.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/internal/status_internal.cc.o -MF CMakeFiles/absl_status.dir/internal/status_internal.cc.o.d -o CMakeFiles/absl_status.dir/internal/status_internal.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/internal/status_internal.cc
 
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/internal/status_internal.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_status.dir/internal/status_internal.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/internal/status_internal.cc > CMakeFiles/absl_status.dir/internal/status_internal.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/internal/status_internal.cc > CMakeFiles/absl_status.dir/internal/status_internal.cc.i
 
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/internal/status_internal.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_status.dir/internal/status_internal.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/internal/status_internal.cc -o CMakeFiles/absl_status.dir/internal/status_internal.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/internal/status_internal.cc -o CMakeFiles/absl_status.dir/internal/status_internal.cc.s
 
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status.cc.o: include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/flags.make
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status.cc.o: ../include/abseil-cpp/absl/status/status.cc
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status.cc.o: include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status.cc.o -MF CMakeFiles/absl_status.dir/status.cc.o.d -o CMakeFiles/absl_status.dir/status.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/status.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status.cc.o -MF CMakeFiles/absl_status.dir/status.cc.o.d -o CMakeFiles/absl_status.dir/status.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/status.cc
 
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_status.dir/status.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/status.cc > CMakeFiles/absl_status.dir/status.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/status.cc > CMakeFiles/absl_status.dir/status.cc.i
 
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_status.dir/status.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/status.cc -o CMakeFiles/absl_status.dir/status.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/status.cc -o CMakeFiles/absl_status.dir/status.cc.s
 
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.o: include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/flags.make
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.o: ../include/abseil-cpp/absl/status/status_payload_printer.cc
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.o: include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.o -MF CMakeFiles/absl_status.dir/status_payload_printer.cc.o.d -o CMakeFiles/absl_status.dir/status_payload_printer.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/status_payload_printer.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.o -MF CMakeFiles/absl_status.dir/status_payload_printer.cc.o.d -o CMakeFiles/absl_status.dir/status_payload_printer.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/status_payload_printer.cc
 
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_status.dir/status_payload_printer.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/status_payload_printer.cc > CMakeFiles/absl_status.dir/status_payload_printer.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/status_payload_printer.cc > CMakeFiles/absl_status.dir/status_payload_printer.cc.i
 
 include/abseil-cpp/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_status.dir/status_payload_printer.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/status_payload_printer.cc -o CMakeFiles/absl_status.dir/status_payload_printer.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/status && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/status/status_payload_printer.cc -o CMakeFiles/absl_status.dir/status_payload_printer.cc.s
 
 # Object files for target absl_status
 absl_status_OBJECTS = \

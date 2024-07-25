@@ -73,15 +73,15 @@ include/abseil-cpp/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast
 include/abseil-cpp/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.o: ../include/abseil-cpp/absl/types/bad_any_cast.cc
 include/abseil-cpp/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.o: include/abseil-cpp/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/types && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.o -MF CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.o.d -o CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/types/bad_any_cast.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/types && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.o -MF CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.o.d -o CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/types/bad_any_cast.cc
 
 include/abseil-cpp/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/types && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/types/bad_any_cast.cc > CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/types && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/types/bad_any_cast.cc > CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.i
 
 include/abseil-cpp/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/types && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/types/bad_any_cast.cc -o CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/types && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/types/bad_any_cast.cc -o CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.s
 
 # Object files for target absl_bad_any_cast_impl
 absl_bad_any_cast_impl_OBJECTS = \

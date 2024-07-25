@@ -66,8 +66,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake"
   "/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-  "/usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake"
-  "/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake"
+  "/usr/share/cmake-3.22/Modules/Compiler/Clang-C.cmake"
+  "/usr/share/cmake-3.22/Modules/Compiler/Clang-CXX.cmake"
+  "/usr/share/cmake-3.22/Modules/Compiler/Clang.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake"
   "/usr/share/cmake-3.22/Modules/DartConfiguration.tcl.in"
   "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
@@ -77,6 +78,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/FindThreads.cmake"
   "/usr/share/cmake-3.22/Modules/GNUInstallDirs.cmake"
   "/usr/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake"
+  "/usr/share/cmake-3.22/Modules/Platform/Linux-Clang-C.cmake"
+  "/usr/share/cmake-3.22/Modules/Platform/Linux-Clang-CXX.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake"
@@ -131,6 +134,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/copy_assets.dir/DependInfo.cmake"
+  "src/CMakeFiles/config.dir/DependInfo.cmake"
   "src/CMakeFiles/ellie.dir/DependInfo.cmake"
   "include/Crow/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "include/abseil-cpp/CMakeFiles/Experimental.dir/DependInfo.cmake"

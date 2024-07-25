@@ -73,57 +73,57 @@ include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/crc32c.cc.o: include/abse
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/crc32c.cc.o: ../include/abseil-cpp/absl/crc/crc32c.cc
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/crc32c.cc.o: include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/crc32c.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/crc32c.cc.o -MF CMakeFiles/absl_crc32c.dir/crc32c.cc.o.d -o CMakeFiles/absl_crc32c.dir/crc32c.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/crc32c.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/crc32c.cc.o -MF CMakeFiles/absl_crc32c.dir/crc32c.cc.o.d -o CMakeFiles/absl_crc32c.dir/crc32c.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/crc32c.cc
 
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/crc32c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_crc32c.dir/crc32c.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/crc32c.cc > CMakeFiles/absl_crc32c.dir/crc32c.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/crc32c.cc > CMakeFiles/absl_crc32c.dir/crc32c.cc.i
 
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/crc32c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_crc32c.dir/crc32c.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/crc32c.cc -o CMakeFiles/absl_crc32c.dir/crc32c.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/crc32c.cc -o CMakeFiles/absl_crc32c.dir/crc32c.cc.s
 
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o: include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/flags.make
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o: ../include/abseil-cpp/absl/crc/internal/crc_memcpy_fallback.cc
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o: include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o -MF CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o.d -o CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_memcpy_fallback.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o -MF CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o.d -o CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_memcpy_fallback.cc
 
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_memcpy_fallback.cc > CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_memcpy_fallback.cc > CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.i
 
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_memcpy_fallback.cc -o CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_memcpy_fallback.cc -o CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.s
 
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o: include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/flags.make
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o: ../include/abseil-cpp/absl/crc/internal/crc_memcpy_x86_arm_combined.cc
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o: include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o -MF CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o.d -o CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_memcpy_x86_arm_combined.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o -MF CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o.d -o CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_memcpy_x86_arm_combined.cc
 
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_memcpy_x86_arm_combined.cc > CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_memcpy_x86_arm_combined.cc > CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.i
 
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_memcpy_x86_arm_combined.cc -o CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_memcpy_x86_arm_combined.cc -o CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.s
 
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o: include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/flags.make
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o: ../include/abseil-cpp/absl/crc/internal/crc_non_temporal_memcpy.cc
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o: include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o -MF CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o.d -o CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_non_temporal_memcpy.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o -MF CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o.d -o CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_non_temporal_memcpy.cc
 
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_non_temporal_memcpy.cc > CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_non_temporal_memcpy.cc > CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.i
 
 include/abseil-cpp/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_non_temporal_memcpy.cc -o CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/crc && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/crc/internal/crc_non_temporal_memcpy.cc -o CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.s
 
 # Object files for target absl_crc32c
 absl_crc32c_OBJECTS = \

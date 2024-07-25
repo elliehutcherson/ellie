@@ -73,15 +73,15 @@ include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_le
 include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o: ../include/abseil-cpp/absl/base/internal/low_level_alloc.cc
 include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o: include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o -MF CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o.d -o CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/base/internal/low_level_alloc.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/base && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o -MF CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o.d -o CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/base/internal/low_level_alloc.cc
 
 include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/base/internal/low_level_alloc.cc > CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/base && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/base/internal/low_level_alloc.cc > CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.i
 
 include/abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/base/internal/low_level_alloc.cc -o CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/base && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/base/internal/low_level_alloc.cc -o CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.s
 
 # Object files for target absl_malloc_internal
 absl_malloc_internal_OBJECTS = \

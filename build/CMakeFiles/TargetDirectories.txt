@@ -1,3 +1,4 @@
+/home/ellie/Projects/ellie/build/CMakeFiles/copy_assets.dir
 /home/ellie/Projects/ellie/build/CMakeFiles/package.dir
 /home/ellie/Projects/ellie/build/CMakeFiles/package_source.dir
 /home/ellie/Projects/ellie/build/CMakeFiles/edit_cache.dir
@@ -6,6 +7,7 @@
 /home/ellie/Projects/ellie/build/CMakeFiles/install.dir
 /home/ellie/Projects/ellie/build/CMakeFiles/install/local.dir
 /home/ellie/Projects/ellie/build/CMakeFiles/install/strip.dir
+/home/ellie/Projects/ellie/build/src/CMakeFiles/config.dir
 /home/ellie/Projects/ellie/build/src/CMakeFiles/ellie.dir
 /home/ellie/Projects/ellie/build/src/CMakeFiles/package.dir
 /home/ellie/Projects/ellie/build/src/CMakeFiles/package_source.dir

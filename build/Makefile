@@ -182,6 +182,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named copy_assets
+
+# Build rule for target.
+copy_assets: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 copy_assets
+.PHONY : copy_assets
+
+# fast build rule for target.
+copy_assets/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assets.dir/build.make CMakeFiles/copy_assets.dir/build
+.PHONY : copy_assets/fast
+
+#=============================================================================
+# Target rules for targets named config
+
+# Build rule for target.
+config: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 config
+.PHONY : config
+
+# fast build rule for target.
+config/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/config.dir/build.make src/CMakeFiles/config.dir/build
+.PHONY : config/fast
+
+#=============================================================================
 # Target rules for targets named ellie
 
 # Build rule for target.
@@ -1796,6 +1822,7 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
+	@echo "... copy_assets"
 	@echo "... uninstall"
 	@echo "... absl_bad_any_cast_impl"
 	@echo "... absl_bad_optional_access"
@@ -1888,6 +1915,7 @@ help:
 	@echo "... absl_tracing_internal"
 	@echo "... absl_utf8_for_code_point"
 	@echo "... absl_vlog_config_internal"
+	@echo "... config"
 	@echo "... ellie"
 .PHONY : help
 

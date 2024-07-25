@@ -73,15 +73,15 @@ include/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir
 include/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o: ../include/abseil-cpp/absl/synchronization/internal/graphcycles.cc
 include/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o: include/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/synchronization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o -MF CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o.d -o CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/synchronization/internal/graphcycles.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/synchronization && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o -MF CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o.d -o CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/synchronization/internal/graphcycles.cc
 
 include/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/synchronization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/synchronization/internal/graphcycles.cc > CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/synchronization && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/synchronization/internal/graphcycles.cc > CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.i
 
 include/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/synchronization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/synchronization/internal/graphcycles.cc -o CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/synchronization && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/synchronization/internal/graphcycles.cc -o CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.s
 
 # Object files for target absl_graphcycles_internal
 absl_graphcycles_internal_OBJECTS = \

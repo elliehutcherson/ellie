@@ -73,15 +73,15 @@ include/abseil-cpp/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/internal/
 include/abseil-cpp/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.o: ../include/abseil-cpp/absl/profiling/internal/periodic_sampler.cc
 include/abseil-cpp/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.o: include/abseil-cpp/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/profiling && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.o -MF CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.o.d -o CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/profiling/internal/periodic_sampler.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/profiling && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.o -MF CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.o.d -o CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/profiling/internal/periodic_sampler.cc
 
 include/abseil-cpp/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/profiling && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/profiling/internal/periodic_sampler.cc > CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/profiling && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/profiling/internal/periodic_sampler.cc > CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.i
 
 include/abseil-cpp/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/profiling && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/profiling/internal/periodic_sampler.cc -o CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/profiling && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/profiling/internal/periodic_sampler.cc -o CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.s
 
 # Object files for target absl_periodic_sampler
 absl_periodic_sampler_OBJECTS = \

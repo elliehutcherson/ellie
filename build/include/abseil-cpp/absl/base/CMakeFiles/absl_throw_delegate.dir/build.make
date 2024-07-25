@@ -73,15 +73,15 @@ include/abseil-cpp/absl/base/CMakeFiles/absl_throw_delegate.dir/internal/throw_d
 include/abseil-cpp/absl/base/CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o: ../include/abseil-cpp/absl/base/internal/throw_delegate.cc
 include/abseil-cpp/absl/base/CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o: include/abseil-cpp/absl/base/CMakeFiles/absl_throw_delegate.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/base/CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/base/CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o -MF CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o.d -o CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/base/internal/throw_delegate.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/base && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/base/CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o -MF CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o.d -o CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/base/internal/throw_delegate.cc
 
 include/abseil-cpp/absl/base/CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/base/internal/throw_delegate.cc > CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/base && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/base/internal/throw_delegate.cc > CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.i
 
 include/abseil-cpp/absl/base/CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/base/internal/throw_delegate.cc -o CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/base && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/base/internal/throw_delegate.cc -o CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.s
 
 # Object files for target absl_throw_delegate
 absl_throw_delegate_OBJECTS = \

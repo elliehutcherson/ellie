@@ -73,15 +73,15 @@ include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/internal/fn
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.o: ../include/abseil-cpp/absl/log/internal/fnmatch.cc
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.o: include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ellie/Projects/ellie/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.o"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/log && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.o -MF CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.o.d -o CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/log/internal/fnmatch.cc
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/log && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.o -MF CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.o.d -o CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.o -c /home/ellie/Projects/ellie/include/abseil-cpp/absl/log/internal/fnmatch.cc
 
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.i"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/log && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/log/internal/fnmatch.cc > CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.i
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/log && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ellie/Projects/ellie/include/abseil-cpp/absl/log/internal/fnmatch.cc > CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.i
 
 include/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.s"
-	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/log && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/log/internal/fnmatch.cc -o CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.s
+	cd /home/ellie/Projects/ellie/build/include/abseil-cpp/absl/log && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ellie/Projects/ellie/include/abseil-cpp/absl/log/internal/fnmatch.cc -o CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.s
 
 # Object files for target absl_log_internal_fnmatch
 absl_log_internal_fnmatch_OBJECTS = \
