@@ -7,3 +7,6 @@
 [submodule "include/asio"]
 	path = include/asio
 	url = https://github.com/chriskohlhoff/asio.git
+[submodule "include/Jinja2Cpp"]
+	path = include/Jinja2Cpp
+	url = https://github.com/jinja2cpp/Jinja2Cpp.git

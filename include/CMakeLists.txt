@@ -7,3 +7,5 @@ include_directories(${INCLUDE_DIRECTORIES} ${ASIO_INCLUDE_DIR})
 add_subdirectory(Crow)
 
 add_subdirectory(abseil-cpp)
+
+add_subdirectory(Jinja2Cpp)
